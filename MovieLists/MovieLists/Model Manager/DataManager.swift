@@ -52,5 +52,17 @@ class DataManager{
         "Tylor the Creator - IGOR",
         "YG - Stop Snitching",
     ]
+    
+    var favoriteMovies = Set<Int>()
+    func favoriteFilteredMovies() -> [Movie] {
+        let movies = Movie.createMovie()
+        var favorites = [Movie]()
+        favoriteMovies.forEach {
+            favorites.append(movies[$0])
+        }
+        
+        return favorites
+    }
 }
+
 

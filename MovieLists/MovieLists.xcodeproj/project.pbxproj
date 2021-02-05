@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0D3653825CCB0B3001FA299 /* FavoriteListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D3653725CCB0B3001FA299 /* FavoriteListTableViewController.swift */; };
 		A0E66F9625CBFBE10060E739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E66F9525CBFBE10060E739 /* AppDelegate.swift */; };
 		A0E66F9825CBFBE10060E739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E66F9725CBFBE10060E739 /* SceneDelegate.swift */; };
 		A0E66F9D25CBFBE10060E739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E66F9B25CBFBE10060E739 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0D3653725CCB0B3001FA299 /* FavoriteListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FavoriteListTableViewController.swift; path = MovieLists/Controllers/FavoriteListTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		A0E66F9225CBFBE10060E739 /* MovieLists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieLists.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0E66F9525CBFBE10060E739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0E66F9725CBFBE10060E739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				A0E66FB925CBFF8D0060E739 /* MovieListTableViewController.swift */,
+				A0D3653725CCB0B3001FA299 /* FavoriteListTableViewController.swift */,
 				A0E66FC225CC00FF0060E739 /* DetailViewController.swift */,
 			);
 			path = Controllers;
@@ -186,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D3653825CCB0B3001FA299 /* FavoriteListTableViewController.swift in Sources */,
 				A0E66FBA25CBFF8D0060E739 /* MovieListTableViewController.swift in Sources */,
 				A0E66FB525CBFF070060E739 /* DataManager.swift in Sources */,
 				A0E66F9625CBFBE10060E739 /* AppDelegate.swift in Sources */,
