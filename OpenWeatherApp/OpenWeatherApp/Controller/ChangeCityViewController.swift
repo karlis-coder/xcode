@@ -7,23 +7,28 @@
 
 import UIKit
 
+protocol ChangeCityDelegate {
+    func userEnterCityName(city: String)
+}
+
 class ChangeCityViewController: UIViewController {
 
+    var delegate: ChangeCityDelegate?
+    @IBOutlet weak var cityTextField: DesignableTextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    @IBAction func getWeatherTapped(_ sender: Any) {
+        
+        guard let cityName = cityTextField.text else {
+            return
+        }
+        
+        delegate?.userEnterCityName(city: cityName)
+        
+        self.dismiss(animated: true, completion: nil)
     }
-    */
-
+    
 }

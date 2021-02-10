@@ -10,7 +10,7 @@ import Foundation
 class WeatherDataModel{
     
     let apiUrl = "https://api.openweathermap.org/data/2.5/weather"
-    let apiId = ""
+    let apiId = "d065168e051110093ce5ad24cdd86f8a"
     
     var temp: Int = 0
     var condition: Int = 0
